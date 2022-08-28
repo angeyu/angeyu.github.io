@@ -1,13 +1,53 @@
 *{
     color:black;
     font-size: 15px;
-    box-sizing: border-box;
     font-family: Arial;
 }
 
-body {
+nav {
+    padding: 10vh 30vw 5vh 30vw;
 
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+body {
     background-color: #E3D3E6;
-    padding: 20px;
-    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px 10vw;
+}
+
+.tile {
+    margin: 20px 10px;
+    width: 500px;
+    height: 350px;
+    border: solid;
+}
+
+.one {
+
+}
+
+.two {
+    float:left;
+    overflow: hidden;
+}
+
+.three {
+    float:left;
+    overflow: hidden;
 }
