@@ -5,11 +5,11 @@
 }
 
 nav {
-    padding: 10vh 30vw 5vh 30vw;
-
+    padding: 10vh 33vw 0 33vw;
+    
 }
 
-a {
+h3 a {
     text-decoration: none;
     margin-right: 20px;
 }
@@ -31,23 +31,19 @@ h2 {
     padding: 20px 10vw;
 }
 
-.tile {
-    margin: 20px 10px;
-    width: 500px;
-    height: 350px;
-    border: solid;
-}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.one {
-
-}
-
-.two {
-    float:left;
-    overflow: hidden;
-}
-
-.three {
-    float:left;
-    overflow: hidden;
+.column-container {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
 }
