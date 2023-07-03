@@ -1,22 +1,20 @@
 *{
     color:black;
     font-size: 15px;
-   # font-family: 'Mulish', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
-    padding: 10vh 33vw 0 33vw;
-    
+    padding: 0 50px;
+    text-align: center;
 }
 
 h3 a {
     text-decoration: none;
-    margin-right: 20px;
 }
 
 body {
-    background-color: #E3D3E6;
+    background-color: #FFFFF0;
 }
 
 h1 {
@@ -28,9 +26,63 @@ h2 {
     text-align: center;
 }
 
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .container {
     padding: 20px 10vw;
 }
+
+.tile-component {
+    margin-top: 22px;
+
+}
+
+.tile {
+    border: 1px solid;
+}
+
+.project-type{
+    padding: 6px 20px 3px 20px;
+    border-radius: 10px 10px 0 0;
+    width: fit-content;
+    border: 1px solid;
+    border-bottom: none;
+}
+
+.ux {
+    background-color: #f79ead;
+}
+
+.data {
+    background-color: #f6df5f;
+}
+
+.etc {
+    background-color: #72e7cc;
+}
+
+.tile-title {
+    padding: 20px 20px 0 20px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+}
+
+.tile-subtitle {
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
 
 .column {
     float: left;
@@ -47,3 +99,23 @@ h2 {
     margin: 10px;
     padding: 10px 20px;
 }
+
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: pink;
+    }
+
+    nav {
+        padding: 0 3vw;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .container {
+        padding: 20px 1vw;
+    }
+    
+  }
