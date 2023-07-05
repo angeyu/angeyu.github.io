@@ -11,6 +11,15 @@ nav {
 
 h3 a {
     text-decoration: none;
+    padding: 5px 15px 3px 15px;
+    margin: 0 2px;
+    border: 1px solid;
+    border-radius: 40px;
+    
+}
+
+a:hover {
+    background-color: #72e7cc;
 }
 
 body {
@@ -78,8 +87,8 @@ img {
 .tile-subtitle {
     padding: 0 20px;
     font-size: 15px;
-    font-weight: 600;
-    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
 
 }
 
