@@ -1,20 +1,21 @@
 *{
     color:black;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
 }
 
 nav {
     padding: 0 50px;
     text-align: center;
+    font-family: 'Mulish', sans-serif;
 }
 
 h3 a {
     text-decoration: none;
-    padding: 5px 15px 3px 15px;
+    padding: 5px 15px 5px 15px;
     margin: 0 2px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 40px;
+    background-color: whitesmoke;
+
     
 }
 
@@ -23,7 +24,7 @@ a:hover {
 }
 
 body {
-    background-color: #FFFFF0;
+    background-color: #b3b8af;
 }
 
 h1 {
@@ -48,21 +49,35 @@ img {
     padding: 20px 10vw;
 }
 
+.intro {
+    padding: 22px;
+    background: whitesmoke;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 12px 12px;
+}
+
 .tile-component {
     margin-top: 22px;
+    
 
 }
 
 .tile {
-    border: 1px solid;
+    border: 3px solid;
+    background-color: whitesmoke;
+    font-family: 'Mulish', sans-serif;
 }
 
 .project-type{
     padding: 6px 20px 3px 20px;
     border-radius: 10px 10px 0 0;
     width: fit-content;
-    border: 1px solid;
+    border: 3px solid;
     border-bottom: none;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .ux {
@@ -80,7 +95,6 @@ img {
 .tile-title {
     padding: 20px 20px 0 20px;
     font-weight: 700;
-    font-family: 'Mulish', sans-serif;
     font-size: 30px;
 }
 
@@ -88,8 +102,6 @@ img {
     padding: 0 20px;
     font-size: 15px;
     font-style: italic;
-    font-family: 'Mulish', sans-serif;
-
 }
 
 
