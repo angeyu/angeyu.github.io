@@ -15,8 +15,6 @@ h3 a {
     border: 2px solid;
     border-radius: 40px;
     background-color: whitesmoke;
-
-    
 }
 
 a:hover {
@@ -36,6 +34,27 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+    
+}
+
+h5 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+
+h6 {
+    font-size: 14px;
+    margin: 0;
+}
 
 img {
     width: 300px;
@@ -54,15 +73,23 @@ img {
     background: whitesmoke;
     border-radius: 35px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 12px 12px;
+}
+
+.studyintro {
+    padding: 12px;
+    background: whitesmoke;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
     box-shadow: 12px 12px;
 }
 
 .tile-component {
     margin-top: 22px;
-    
-
 }
 
 .tile {
@@ -78,6 +105,26 @@ img {
     border: 3px solid;
     border-bottom: none;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.project-tile{
+    padding: 6px 20px 3px 20px;
+    border-radius: 10px 10px 0 0;
+    width: fit-content;
+    border: 3px solid;
+    border-bottom: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.project1{
+    font-size: 30px;
+    background-color: #EFE193;
+    
+}
+
+.description {
+    margin: 10px;
+    padding: 10px 20px;
 }
 
 .ux {
@@ -104,7 +151,6 @@ img {
     font-style: italic;
 }
 
-
 .column {
     float: left;
     width: 50%;
@@ -119,6 +165,14 @@ img {
 .column-container {
     margin: 10px;
     padding: 10px 20px;
+}
+
+.lcolumn-container {
+    padding: 0 10px 0 0;
+}
+
+.rcolumn-container {
+    padding: 0 0 0 10px;
 }
 
 
@@ -140,3 +194,4 @@ img {
     }
     
   }
+  
