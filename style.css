@@ -2,10 +2,24 @@
     color:black;
 }
 
+body {
+    margin: 0;
+}
+
 nav {
     padding: 10px 0 10px 0;
     text-align: center;
     font-family: 'Mulish', sans-serif;
+}
+
+footer {
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    width: 100vw;
+    margin-top: 50px;
+
 }
 
 h3 a {
