@@ -36,7 +36,7 @@ a:hover {
 }
 
 body {
-    background-color: #b3b8af;
+    background-color: #e4e1d7;
 }
 
 h1 {
@@ -90,6 +90,7 @@ img {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     box-shadow: 12px 12px;
+    border: 2px solid;
 }
 
 .studyintro {
