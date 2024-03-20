@@ -194,16 +194,24 @@ img {
 
 @media screen and (max-width: 500px) {
     body {
-      background-color: pink;
+      background-color: #e4e1d7;
     }
 
     nav {
         padding: 0 3vw;
+        font-size: 15px;
+    }
+
+    nav >h3 {
+        padding: 5vw 0vw 0vw;
+        font-size: 15px;
     }
 
     .column {
         width: 100%;
     }
+
+
 
     .container {
         padding: 20px 1vw;
