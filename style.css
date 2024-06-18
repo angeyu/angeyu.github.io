@@ -109,6 +109,10 @@ nav {
 }
 */
 
+.intro {
+    margin-bottom: 40px;
+}
+
 
 .studyintro {
     padding: 12px;
@@ -157,7 +161,7 @@ nav {
     margin: 10px;
     padding: 10px 20px;
 }
-
+/*
 .ux {
     background-color: #f79ead;
 }
@@ -168,7 +172,9 @@ nav {
 
 .etc {
     background-color: #72e7cc;
-}
+}*/
+
+
 
 .tile-title {
     padding: 20px 20px 0 20px;
