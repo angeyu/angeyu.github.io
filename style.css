@@ -8,20 +8,25 @@ body {
 
 nav {
     padding: 10px 0 10px 0;
-    text-align: center;
+    text-align: right;
     font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid;
 }
 
 footer {
     padding: 20px;
-    background-color: whitesmoke;
     text-align: center;
     font-family: 'Mulish', sans-serif;
     width: 100vw;
     margin-top: 50px;
+    border-top: solid 1px;
+    background-color: #FFFFFF;
 
 }
 
+/*
 h3 a {
     text-decoration: none;
     padding: 5px 15px 5px 15px;
@@ -30,17 +35,26 @@ h3 a {
     border-radius: 40px;
     background-color: whitesmoke;
 }
+*/
+
+h3 a {
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+}
 
 a:hover {
     background-color: #72e7cc;
 }
 
 body {
-    background-color: #e4e1d7;
+    /*
+    background-color: #e4e1d7;*/
+    
 }
 
 h1 {
     font-size: 30px;
+    font-family: 'Mulish', sans-serif;
 }
 
 h2 {
@@ -70,6 +84,10 @@ h6 {
     margin: 0;
 }
 
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
 img {
     width: 300px;
     height: auto;
@@ -82,20 +100,18 @@ img {
     padding: 20px 10vw;
 }
 
-.intro {
-    padding: 22px;
-    background: whitesmoke;
-    border-radius: 35px;
-    text-align: center;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    box-shadow: 12px 12px;
-    border: 2px solid;
+/*
+nav {
+    padding: 10px 0 10px 0;
+    text-align: right;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
 }
+*/
+
 
 .studyintro {
     padding: 12px;
-    background: whitesmoke;
     border-radius: 35px;
     text-align: center;
     font-weight: 600;
@@ -110,7 +126,6 @@ img {
 
 .tile {
     border: 3px solid;
-    background-color: whitesmoke;
     font-family: 'Mulish', sans-serif;
 }
 
