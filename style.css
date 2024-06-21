@@ -42,10 +42,6 @@ h3 a {
     padding: 5px 20px 5px 20px;
 }
 
-a:hover {
-    background-color: #72e7cc;
-}
-
 body {
     /*
     background-color: #e4e1d7;*/
@@ -120,19 +116,29 @@ nav {
     text-align: center;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 12px 12px;
+    border: solid 1px;
     margin-bottom: 40px;
 }
 
 .tile-component {
     margin-top: 22px;
+    border: 3px solid;
 }
 
 .tile {
-    border: 3px solid;
     font-family: 'Mulish', sans-serif;
 }
 
+
+.project-type{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 6px 20px 1px 20px;
+    border-bottom: solid 1px;
+    background-color: #EFE193;
+
+}
+
+/*
 .project-type{
     padding: 6px 20px 3px 20px;
     border-radius: 10px 10px 0 0;
@@ -141,12 +147,13 @@ nav {
     border-bottom: none;
     font-family: 'Bebas Neue', sans-serif;
 }
+*/
 
 .project-tile{
     padding: 6px 20px 3px 20px;
     border-radius: 10px 10px 0 0;
     width: fit-content;
-    border: 3px solid;
+    border: 2px solid;
     border-bottom: none;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -200,7 +207,7 @@ nav {
   }
 
 .column-container {
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 10px 20px;
 }
 
@@ -215,7 +222,6 @@ nav {
 
 @media screen and (max-width: 500px) {
     body {
-      background-color: #e4e1d7;
     }
 
     nav {
